@@ -1,0 +1,125 @@
+,id,name,localized_name,primary_attr,attack_type,legs,role_escape,role_pusher,role_disabler,role_initiator,role_durable,role_carry,role_support,role_nuker
+0,1,npc_dota_hero_antimage,Anti-Mage,agi,Melee,2,1,0,0,0,0,1,0,1
+1,2,npc_dota_hero_axe,Axe,str,Melee,2,0,0,1,1,1,1,0,0
+2,3,npc_dota_hero_bane,Bane,all,Ranged,4,0,0,1,0,1,0,1,1
+3,4,npc_dota_hero_bloodseeker,Bloodseeker,agi,Melee,2,0,0,1,1,0,1,0,1
+4,5,npc_dota_hero_crystal_maiden,Crystal Maiden,int,Ranged,2,0,0,1,0,0,0,1,1
+5,6,npc_dota_hero_drow_ranger,Drow Ranger,agi,Ranged,2,0,1,1,0,0,1,0,0
+6,7,npc_dota_hero_earthshaker,Earthshaker,str,Melee,2,0,0,1,1,0,0,1,1
+7,8,npc_dota_hero_juggernaut,Juggernaut,agi,Melee,2,1,1,0,0,0,1,0,0
+8,9,npc_dota_hero_mirana,Mirana,all,Ranged,2,1,0,1,0,0,1,1,1
+9,10,npc_dota_hero_morphling,Morphling,agi,Ranged,0,1,0,1,0,1,1,0,1
+10,11,npc_dota_hero_nevermore,Shadow Fiend,agi,Ranged,0,0,0,0,0,0,1,0,1
+11,12,npc_dota_hero_phantom_lancer,Phantom Lancer,agi,Melee,2,1,1,0,0,0,1,0,1
+12,13,npc_dota_hero_puck,Puck,int,Ranged,2,1,0,1,1,0,0,0,1
+13,14,npc_dota_hero_pudge,Pudge,str,Melee,2,0,0,1,1,1,0,0,1
+14,15,npc_dota_hero_razor,Razor,agi,Ranged,0,0,1,0,0,1,1,0,1
+15,16,npc_dota_hero_sand_king,Sand King,all,Melee,6,1,0,1,1,0,0,1,1
+16,17,npc_dota_hero_storm_spirit,Storm Spirit,int,Ranged,2,1,0,1,1,0,1,0,1
+17,18,npc_dota_hero_sven,Sven,str,Melee,2,0,0,1,1,1,1,0,1
+18,19,npc_dota_hero_tiny,Tiny,str,Melee,2,0,1,1,1,1,1,0,1
+19,20,npc_dota_hero_vengefulspirit,Vengeful Spirit,all,Ranged,2,1,0,1,1,0,0,1,1
+20,21,npc_dota_hero_windrunner,Windranger,all,Ranged,2,1,0,1,0,0,1,1,1
+21,22,npc_dota_hero_zuus,Zeus,int,Ranged,2,0,0,0,0,0,1,0,1
+22,23,npc_dota_hero_kunkka,Kunkka,str,Melee,2,0,0,1,1,1,1,1,1
+23,25,npc_dota_hero_lina,Lina,int,Ranged,2,0,0,1,0,0,1,1,1
+24,26,npc_dota_hero_lion,Lion,int,Ranged,2,0,0,1,1,0,0,1,1
+25,27,npc_dota_hero_shadow_shaman,Shadow Shaman,int,Ranged,2,0,1,1,1,0,0,1,1
+26,28,npc_dota_hero_slardar,Slardar,str,Melee,0,1,0,1,1,1,1,0,0
+27,29,npc_dota_hero_tidehunter,Tidehunter,str,Melee,2,0,0,1,1,1,1,0,1
+28,30,npc_dota_hero_witch_doctor,Witch Doctor,int,Ranged,2,0,0,1,0,0,0,1,1
+29,31,npc_dota_hero_lich,Lich,int,Ranged,2,0,0,0,0,0,0,1,1
+30,32,npc_dota_hero_riki,Riki,agi,Melee,2,1,0,1,0,0,1,0,0
+31,33,npc_dota_hero_enigma,Enigma,all,Ranged,0,0,1,1,1,0,0,0,0
+32,34,npc_dota_hero_tinker,Tinker,int,Ranged,2,0,1,0,0,0,1,0,1
+33,35,npc_dota_hero_sniper,Sniper,agi,Ranged,2,0,0,0,0,0,1,0,1
+34,36,npc_dota_hero_necrolyte,Necrophos,int,Ranged,2,0,0,1,0,1,1,0,1
+35,37,npc_dota_hero_warlock,Warlock,int,Ranged,2,0,0,1,1,0,0,1,0
+36,38,npc_dota_hero_beastmaster,Beastmaster,all,Melee,2,0,0,1,1,1,0,0,1
+37,39,npc_dota_hero_queenofpain,Queen of Pain,int,Ranged,2,1,0,0,0,0,1,0,1
+38,40,npc_dota_hero_venomancer,Venomancer,all,Ranged,0,0,1,1,1,0,0,1,1
+39,41,npc_dota_hero_faceless_void,Faceless Void,agi,Melee,2,1,0,1,1,1,1,0,0
+40,42,npc_dota_hero_skeleton_king,Wraith King,str,Melee,2,0,0,1,1,1,1,1,0
+41,43,npc_dota_hero_death_prophet,Death Prophet,int,Ranged,2,0,1,1,0,0,1,0,1
+42,44,npc_dota_hero_phantom_assassin,Phantom Assassin,agi,Melee,2,1,0,0,0,0,1,0,0
+43,45,npc_dota_hero_pugna,Pugna,int,Ranged,2,0,1,0,0,0,0,0,1
+44,46,npc_dota_hero_templar_assassin,Templar Assassin,agi,Ranged,2,1,0,0,0,0,1,0,0
+45,47,npc_dota_hero_viper,Viper,agi,Ranged,0,0,0,1,1,1,1,0,0
+46,48,npc_dota_hero_luna,Luna,agi,Ranged,2,0,1,0,0,0,1,0,1
+47,49,npc_dota_hero_dragon_knight,Dragon Knight,str,Melee,2,0,1,1,1,1,1,0,1
+48,50,npc_dota_hero_dazzle,Dazzle,all,Ranged,2,0,0,1,0,0,0,1,1
+49,51,npc_dota_hero_rattletrap,Clockwerk,all,Melee,2,0,0,1,1,1,0,0,1
+50,52,npc_dota_hero_leshrac,Leshrac,int,Ranged,4,0,1,1,0,0,1,1,1
+51,53,npc_dota_hero_furion,Nature's Prophet,int,Ranged,2,1,1,0,0,0,1,0,1
+52,54,npc_dota_hero_life_stealer,Lifestealer,str,Melee,2,1,0,1,0,1,1,0,0
+53,55,npc_dota_hero_dark_seer,Dark Seer,all,Melee,2,1,0,1,1,0,0,0,0
+54,56,npc_dota_hero_clinkz,Clinkz,agi,Ranged,2,1,1,0,0,0,1,0,0
+55,57,npc_dota_hero_omniknight,Omniknight,str,Melee,2,0,0,0,0,1,0,1,1
+56,58,npc_dota_hero_enchantress,Enchantress,int,Ranged,4,0,1,1,0,1,0,1,0
+57,59,npc_dota_hero_huskar,Huskar,str,Ranged,2,0,0,0,1,1,1,0,0
+58,60,npc_dota_hero_night_stalker,Night Stalker,str,Melee,2,0,0,1,1,1,1,0,1
+59,61,npc_dota_hero_broodmother,Broodmother,all,Melee,8,1,1,0,0,0,1,0,1
+60,62,npc_dota_hero_bounty_hunter,Bounty Hunter,agi,Melee,2,1,0,0,0,0,0,0,1
+61,63,npc_dota_hero_weaver,Weaver,agi,Ranged,4,1,0,0,0,0,1,0,0
+62,64,npc_dota_hero_jakiro,Jakiro,int,Ranged,2,0,1,1,0,0,0,1,1
+63,65,npc_dota_hero_batrider,Batrider,all,Ranged,2,1,0,1,1,0,0,0,0
+64,66,npc_dota_hero_chen,Chen,all,Ranged,2,0,1,0,0,0,0,1,0
+65,67,npc_dota_hero_spectre,Spectre,agi,Melee,0,1,0,0,0,1,1,0,0
+66,68,npc_dota_hero_ancient_apparition,Ancient Apparition,int,Ranged,0,0,0,1,0,0,0,1,1
+67,69,npc_dota_hero_doom_bringer,Doom,str,Melee,2,0,0,1,1,1,1,0,1
+68,70,npc_dota_hero_ursa,Ursa,agi,Melee,2,0,0,1,0,1,1,0,0
+69,71,npc_dota_hero_spirit_breaker,Spirit Breaker,str,Melee,2,1,0,1,1,1,1,0,0
+70,72,npc_dota_hero_gyrocopter,Gyrocopter,agi,Ranged,2,0,0,1,0,0,1,0,1
+71,73,npc_dota_hero_alchemist,Alchemist,str,Melee,2,0,0,1,1,1,1,1,1
+72,74,npc_dota_hero_invoker,Invoker,all,Ranged,2,1,1,1,0,0,1,0,1
+73,75,npc_dota_hero_silencer,Silencer,int,Ranged,2,0,0,1,1,0,1,1,1
+74,76,npc_dota_hero_obsidian_destroyer,Outworld Destroyer,int,Ranged,4,0,0,1,0,0,1,0,1
+75,77,npc_dota_hero_lycan,Lycan,all,Melee,2,1,1,0,0,1,1,0,0
+76,78,npc_dota_hero_brewmaster,Brewmaster,all,Melee,2,0,0,1,1,1,1,0,1
+77,79,npc_dota_hero_shadow_demon,Shadow Demon,int,Ranged,2,0,0,1,1,0,0,1,1
+78,80,npc_dota_hero_lone_druid,Lone Druid,all,Ranged,2,0,1,0,0,1,1,0,0
+79,81,npc_dota_hero_chaos_knight,Chaos Knight,str,Melee,2,0,1,1,1,1,1,0,0
+80,82,npc_dota_hero_meepo,Meepo,agi,Melee,2,1,1,1,1,0,1,0,1
+81,83,npc_dota_hero_treant,Treant Protector,str,Melee,2,1,0,1,1,1,0,1,0
+82,84,npc_dota_hero_ogre_magi,Ogre Magi,str,Melee,2,0,0,1,1,1,0,1,1
+83,85,npc_dota_hero_undying,Undying,str,Melee,2,0,0,1,0,1,0,1,1
+84,86,npc_dota_hero_rubick,Rubick,int,Ranged,2,0,0,1,0,0,0,1,1
+85,87,npc_dota_hero_disruptor,Disruptor,int,Ranged,2,0,0,1,1,0,0,1,1
+86,88,npc_dota_hero_nyx_assassin,Nyx Assassin,all,Melee,6,1,0,1,1,0,0,0,1
+87,89,npc_dota_hero_naga_siren,Naga Siren,agi,Melee,0,1,1,1,1,0,1,1,0
+88,90,npc_dota_hero_keeper_of_the_light,Keeper of the Light,int,Ranged,2,0,0,1,0,0,0,1,1
+89,91,npc_dota_hero_wisp,Io,all,Ranged,0,1,0,0,0,0,0,1,1
+90,92,npc_dota_hero_visage,Visage,all,Ranged,2,0,1,1,0,1,0,1,1
+91,93,npc_dota_hero_slark,Slark,agi,Melee,2,1,0,1,0,0,1,0,1
+92,94,npc_dota_hero_medusa,Medusa,agi,Ranged,0,0,0,1,0,1,1,0,0
+93,95,npc_dota_hero_troll_warlord,Troll Warlord,agi,Ranged,2,0,1,1,0,1,1,0,0
+94,96,npc_dota_hero_centaur,Centaur Warrunner,str,Melee,4,1,0,1,1,1,0,0,1
+95,97,npc_dota_hero_magnataur,Magnus,all,Melee,4,1,0,1,1,0,0,0,1
+96,98,npc_dota_hero_shredder,Timbersaw,str,Melee,2,1,0,0,0,1,0,0,1
+97,99,npc_dota_hero_bristleback,Bristleback,str,Melee,2,0,0,0,1,1,1,0,1
+98,100,npc_dota_hero_tusk,Tusk,str,Melee,2,0,0,1,1,0,0,0,1
+99,101,npc_dota_hero_skywrath_mage,Skywrath Mage,int,Ranged,2,0,0,1,0,0,0,1,1
+100,102,npc_dota_hero_abaddon,Abaddon,all,Melee,2,0,0,0,0,1,1,1,0
+101,103,npc_dota_hero_elder_titan,Elder Titan,str,Melee,2,0,0,1,1,1,0,0,1
+102,104,npc_dota_hero_legion_commander,Legion Commander,str,Melee,2,0,0,1,1,1,1,0,1
+103,105,npc_dota_hero_techies,Techies,all,Ranged,6,0,0,1,0,0,0,0,1
+104,106,npc_dota_hero_ember_spirit,Ember Spirit,agi,Melee,2,1,0,1,1,0,1,0,1
+105,107,npc_dota_hero_earth_spirit,Earth Spirit,str,Melee,2,1,0,1,1,1,0,0,1
+106,108,npc_dota_hero_abyssal_underlord,Underlord,str,Melee,2,1,0,1,0,1,0,1,1
+107,109,npc_dota_hero_terrorblade,Terrorblade,agi,Melee,2,0,1,0,0,0,1,0,1
+108,110,npc_dota_hero_phoenix,Phoenix,all,Ranged,2,1,0,1,1,0,0,1,1
+109,111,npc_dota_hero_oracle,Oracle,int,Ranged,2,1,0,1,0,0,0,1,1
+110,112,npc_dota_hero_winter_wyvern,Winter Wyvern,all,Ranged,2,0,0,1,0,0,0,1,1
+111,113,npc_dota_hero_arc_warden,Arc Warden,agi,Ranged,2,1,0,0,0,0,1,0,1
+112,114,npc_dota_hero_monkey_king,Monkey King,agi,Melee,2,1,0,1,1,0,1,0,0
+113,119,npc_dota_hero_dark_willow,Dark Willow,all,Ranged,2,1,0,1,0,0,0,1,1
+114,120,npc_dota_hero_pangolier,Pangolier,all,Melee,2,1,0,1,1,1,1,0,1
+115,121,npc_dota_hero_grimstroke,Grimstroke,int,Ranged,0,1,0,1,0,0,0,1,1
+116,123,npc_dota_hero_hoodwink,Hoodwink,agi,Ranged,4,1,0,1,0,0,0,1,1
+117,126,npc_dota_hero_void_spirit,Void Spirit,all,Melee,2,1,0,1,0,0,1,0,1
+118,128,npc_dota_hero_snapfire,Snapfire,all,Ranged,2,1,0,1,0,0,0,1,1
+119,129,npc_dota_hero_mars,Mars,str,Melee,2,0,0,1,1,1,1,0,0
+120,135,npc_dota_hero_dawnbreaker,Dawnbreaker,str,Melee,2,0,0,0,0,1,1,0,0
+121,136,npc_dota_hero_marci,Marci,all,Melee,2,1,0,1,1,0,1,1,0
+122,137,npc_dota_hero_primal_beast,Primal Beast,str,Melee,2,0,0,1,1,1,0,0,0
+123,138,npc_dota_hero_muerta,Muerta,int,Ranged,2,0,0,1,0,0,1,0,1
