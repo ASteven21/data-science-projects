@@ -5,7 +5,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 # === CONFIG ===
 PERSIST_DIR = './chroma_db'
 PDF_FOLDER = './pdf_files'
-COLLECTION_NAME = '' # need to come up with a name
+COLLECTION_NAME = '' # TODO: need to come up with a name
 
 # === EMBEDDING MODEL ===
 embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
