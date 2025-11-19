@@ -14,7 +14,7 @@ API_KEY = os.getenv('GEMINI_API_KEY')
 # === CONFIG ===
 PERSIST_DIR = './chroma_db'
 PDF_FOLDER = './pdf_folder'
-COLLECTION_NAME = '' # TODO: need to come up with a name
+COLLECTION_NAME = 'id_stock_annual_reports'
 
 # === EMBEDDING MODEL ===
 embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
@@ -56,16 +56,21 @@ def main():
     )
 
     # === ASK A QUESTION ===
-    question = 'Who do I contact if I want to resubmit?'
-    result = qa_chain.invoke(question)
+    while True:
+        question = input('\nAsk a question (or type "exit"): ')
+        
+        if question.lower() in ['exit', 'quit', 'q']:
+            print('Exiting program. Goodbye!')
+            break
+        
+        result = qa_chain.invoke(question)
 
-    print(f'\nQuestion: {question}')
-    print(f'\nAnswer: {result['result']}')
+        print(f'\nAnswer: {result['result']}')
 
-    # Show which chunks were used
-    for doc in result['source_documents']:
-        meta = doc.metadata
-        print(f'Source: {meta['source']} (page {meta.get('page', '?')})')
+        # Show which chunks were used
+        for doc in result['source_documents']:
+            meta = doc.metadata
+            print(f'Source: {meta['source']} (page {meta.get('page', '?')})')
 
 if __name__ == "__main__":
     main()

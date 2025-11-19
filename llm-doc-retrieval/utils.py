@@ -30,7 +30,7 @@ def ingest_pdf_to_docs(file_path: str, uploader: str='automated'):
         meta = dict(chunk.metadata or {})
         page = meta.get('page', None)
 
-        meta.upadate({
+        meta.update({
             'source': source,
             'product': product,
             'page': page,
