@@ -9,3 +9,6 @@ __pycache__
 
 # Ignore python version file
 .python-version
+
+# Ignore ChromaDB
+chroma_db/
