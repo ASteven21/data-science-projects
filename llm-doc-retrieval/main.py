@@ -17,7 +17,18 @@ PDF_FOLDER = './pdf_folder'
 COLLECTION_NAME = 'id_stock_annual_reports'
 
 # === EMBEDDING MODEL ===
-embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
+BGE_INSTRUCTION = "Represent this sentence for searching relevant passages: "
+
+embeddings = HuggingFaceEmbeddings(
+    model_name='BAAI/bge-base-en-v1.5',
+    model_kwargs={'device': 'cuda'},
+    encode_kwargs={
+        # Add instructions as part of BGE best practice
+        'prompt': BGE_INSTRUCTION,
+        # This is important for BGE's cosine similarity computation
+        'normalize_embeddings': True
+    }
+)
 
 def main():
     vector_store = get_vectorstore(
@@ -27,13 +38,11 @@ def main():
     )
 
     # === RETRIEVAL ===
-    retriever = vector_store.as_retriever(search_kwargs={'k': 3})
+    retriever = vector_store.as_retriever(search_kwargs={'k': 20})
     llm = ChatGoogleGenerativeAI(model='gemini-2.5-flash', google_api_key=API_KEY)
 
     system_prompt = '''
     You are a helpful company assistant. Answer the user's question **only** using the provided context.
-    If the answer cannot be found in the context, say:
-    "I\'m sorry, I don\'t have information about that."
     Never make up or assume information.
     '''
 
